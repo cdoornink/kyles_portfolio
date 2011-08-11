@@ -1,0 +1,124 @@
+body {
+  background: url(../images/handmadepaper.png); }
+#main-container{
+	width: 600px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color: #555;
+}
+#content-container{
+	width: 580px;
+	padding: 10px;
+	/*background: white;
+	  border-top: 1px solid #999999;
+	  border-bottom: 1px solid #aaaaaa;
+	  border-left: 1px solid #cccccc;
+	  border-right: 1px solid #cccccc;*/
+}
+/*INTRO PAGE*/
+#title {
+  margin: 0 auto;
+  width: 600px;
+  height: 60px; }
+#move-container {
+  margin: 0 auto;
+  width: 600px;
+  height: 805px;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #aaaaaa;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc; }
+  #move-container #ground {
+    width: 630px;
+    height: 815px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../images/beer-back.png) no-repeat;
+    font-size: 24px; }
+  #move-container #move-me-around {
+    width: 630px;
+    height: 815px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../images/beer-mid.png) no-repeat;
+    font-size: 24px; }
+  #move-container #move-me-too {
+    width: 630px;
+    height: 815px;
+    background: url(../images/beer-front.png) no-repeat;
+    position: absolute; }
+#enter-site{
+	cursor: pointer;
+}
+
+/*SITE HEADER*/
+#header-container{
+	width: 600px;
+	height: 80px;
+	margin: 20px 0 0;
+}
+#header-title{
+	margin:0 auto;
+	font-size: 22px;
+	text-align: center;
+}
+#menu-container{
+}
+#top-menu{
+	overflow: hidden;
+	width: 300px;
+	margin: 0 auto;
+}
+.menu-item{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+.menu-item a{
+	te
+}
+#sub-menu{
+	overflow: hidden;
+	width: 400px;
+	margin: 0 auto;
+}
+.sub-menu-item{
+	float: left;
+	width: 100px;
+}
+
+
+/*SITE FOOTER*/
+#footer-container{
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	padding: 10px;
+	border-top: 1px solid #999;
+	width: 580px;
+}
+#twitter{
+	float: right;
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	background: url(../images/twitter.jpeg) no-repeat;
+}
+#email{
+	float: right;
+	height: 40px;
+	width: 40px;
+	background: url(../images/email.png) no-repeat;
+}
+
+
+/*MAIN PAGE*/
